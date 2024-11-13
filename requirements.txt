@@ -3,3 +3,6 @@ easyocr
 numpy
 opencv-python-headless
 Pillow
+torch
+torchvision
+scipy
