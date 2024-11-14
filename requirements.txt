@@ -1,8 +1,8 @@
-streamlit
-easyocr
-numpy
-opencv-python-headless
-Pillow
-torch
-torchvision
-scipy
+streamlit==1.25.0
+easyocr==1.7.0
+numpy==1.23.5
+opencv-python-headless==4.5.5.64
+Pillow==9.2.0
+torch==1.13.1
+torchvision==0.14.1
+scipy==1.9.3
