@@ -26,7 +26,7 @@ if uploaded_image is not None:
     # Display the uploaded image
     image = Image.open(uploaded_image)
     img_array = np.array(image)
-    st.image(image, caption='Uploaded Image', use_container_width=True)
+    st.image(image, caption='Uploaded Image', use_column_width=True)
 
     # Initialize EasyOCR reader
     with st.spinner("Loading OCR model..."):
@@ -50,6 +50,6 @@ if uploaded_image is not None:
 
     # Display annotated image
     st.subheader("🔍 Annotated Image:")
-    st.image(annotated_image, caption='Image with Detected Text', use_container_width=True)
+    st.image(annotated_image, caption='Image with Detected Text', use_column_width=True)
 else:
     st.info("Please upload an image to proceed.")
